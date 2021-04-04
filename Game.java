@@ -59,12 +59,13 @@ public Player play()
 	while(!super.isFull())
 	{
 		if(!onePlay(players[i]))
-		{	if(onePlay(players[j]))
-		{
+		{	
+		    if(onePlay(players[j]))
+		    {
 			s.close();
 				return players[j];
 				
-		}
+		    }
 		
 		}
 		else
